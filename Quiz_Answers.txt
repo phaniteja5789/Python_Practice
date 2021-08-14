@@ -1,0 +1,88 @@
+1.)S="I Love Python"
+Love can be Extracted in 2 Ways.
+Either traversal from Start
+Or Traversal from end
+S[2:6],S[-11:-7]
+
+Ans:B,D
+
+2.)o/p of 3*3**3
+
+According to Operator Precedence the Power has higher Priority than Multiplication
+
+so 3*(27)=81
+
+Ans:C
+
+3.)o/p of ((500//7)%5)**3
+
+Every Operation specified in Parenthesis 
+
+500//7=71
+
+71%5=1
+1**3=1
+
+Ans:A
+
+4.)t=(3,5,7,11) t.append(9)
+
+Error because the input is given in Tuple.Tuple is Immutable which cannot be changed hence we cannot append any value to it.
+
+Ans:D
+
+5.)Question is Unclear
+
+6.)l=[32,34,12,27,33]
+l.append((14,19))
+print(len(l))
+
+the final list after append=[32,34,12,27,33,(14,19)]
+
+len(l)=6
+
+Ans:B
+
+7.)Sets are Immutable is Incorrect.Since we can add elements to a set using set_object.add(value)
+
+Ans:C
+
+8.)D={1:['Raj',22],2:['Simran':21],3:['Rahul',40]}
+for val in D:
+	print(val)
+
+Since Dictionary contains key,val as a pair if we print val then the dictionary object is printed no of items present in Dictionary
+
+Ans: D={1:['Raj',22],2:['Simran':21],3:['Rahul',40]}
+	D={1:['Raj',22],2:['Simran':21],3:['Rahul',40]}
+	D={1:['Raj',22],2:['Simran':21],3:['Rahul',40]}
+
+None of the Above
+
+9.)
+for sentence in paragraph:
+	for word in sentence.split():
+		single_word_list.append(word)
+
+Equilaent to [word for word in sentence.split() for sentence in paragraph]
+
+Ans:D 
+
+10.)print{list(range(10, 1, -1)))
+
+range prints from start index to end-1 index hence 10,9,8,7,6,5,4,3,2 will be printed and it will be converted to list.Hence [10,9,8,7,6,5,4,3,2] will be the output.
+Ans:D
+
+
+
+Answers
+1.)B,D
+2.)C
+3.)A
+4.)D
+5.)Question is unclear
+6.)B
+7.)C
+8.)Every value is printed no of items present in Dictionary
+9.)D
+10.)D

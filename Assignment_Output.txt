@@ -1,0 +1,17 @@
+['SAS', 'R', 'PYTHON', 'SPARK']
+['I Love DataScience ', ' Python']
+Pythons Syntax is very easy to learn & Python Syntax is very clear
+Python
+s
+Give input string as an input to check for palindrome
+
+Hive
+String is not Palindrome 0
+Give Input Sentence as an input to check for Reversal of Words
+
+Hive Spark
+Spark Hive
+Provide a String to check the String formatting
+
+SPARK_HIVE
+spark_hive
